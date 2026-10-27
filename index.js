@@ -1,6 +1,7 @@
-// const btnLogin = document.getElementById("btn-login"); 
-// const dizAzul = document.getElementById("azul")
+// const imagens = document.getElementsByTagName("img");
+// console.log(`Temos ${imagens.length} img`);
 
-// btnLogin.addEventListener("click", () => {
-//     dizAzul.style.backgroundColor = 'yellow'
-// })
+
+
+const texto = document.querySelector(".destaque > p "); 
+texto.textContent = "Hackeado!";
